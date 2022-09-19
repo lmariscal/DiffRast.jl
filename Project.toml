@@ -1,0 +1,16 @@
+name = "DiffRast"
+uuid = "9f77bdd1-9f9a-4def-971c-b8e646064c6d"
+authors = ["Leonardo D. Mariscal <l@mariscal.ch>"]
+version = "0.1.0"
+
+[deps]
+CImGui = "5d785b6c-b76f-510e-a07c-3070796c7e87"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+GL = "a4c1b8f5-413d-4e87-9834-f22291c56bf9"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
