@@ -47,5 +47,6 @@ function data_to_image(data::AbstractArray{Float32})
 end
 
 include("rasterize.jl")
+include("interpolation.jl")
 
 end

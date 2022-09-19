@@ -19,6 +19,7 @@ index = UInt32[
 gl_ctx = DiffRast.create_context()
 rast = DiffRast.rasterize(gl_ctx, vertex, index, width=256, height=256)
 DiffRast.destroy_context(gl_ctx)
+out = DiffRast.interpolate(attr, rast, index)
 
-save("test_rast.png", DiffRast.data_to_image(rast))
+save("triangle.png", out)
 
