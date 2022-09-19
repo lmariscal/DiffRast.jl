@@ -522,5 +522,6 @@ Manifest.toml
 
 ### Custom ###
 **/imgui.ini
+*.png
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,osx,linux,windows,vim,emacs,latex,julia
